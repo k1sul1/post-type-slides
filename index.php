@@ -10,6 +10,7 @@ add_action("init", function() {
     "label" => "Slides",
     "labels" => [],
     "public" => true,
+    "has_archive" => true,
     "hierarchical" => true,
     "show_in_rest" => true,
     "supports" => [
